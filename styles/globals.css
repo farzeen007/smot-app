@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+nav {
+  z-index: 15;
+  padding: 10px 0px 20px 88px;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.nav-right_side {
+  display: flex;
+}
+.nav-details {
+  display: flex;
+  flex-direction: row;
+}
+.nav-details-flex {
+  display: flex;
+  align-items: center;
+}
+.nav-img-container {
+  display: inline-block;
+}
+.nav-img {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.nav-right-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #02405b;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.nav-search {
+  margin: 0 10px;
+  position: relative;
+}
+.nav-search input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+.nav-search-icon_background {
+  position: absolute;
+  right: 0;
+}
+.nav-search_icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.nav-right_icon_links {
+  display: flex;
+  align-items: center;
+}
+.nav-login_btn_conatiner {
+  position: relative;
+  text-align: right;
+  margin: 0 10px;
+}
+.nav-login_btn_conatiner img {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  cursor: pointer;
+}
+.nav-login_btn {
+  padding: 10px 30px 10px 40px;
+  text-align: right;
+  background-color: #006aae;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.nav-login_btn span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #ffffff;
+}
+.nav-whatsappicon {
+  margin: 0 10px;
+}
+
+/* footer section */
+
+/* footer  */
+.footer_container {
+  background: linear-gradient(to bottom, #daeaf5, white),
+    url("../public/background.png");
+  background-size: cover;
+  background-position: center; /* Adjust based on your design */
+  display: flex;
+  z-index: -1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 75px 0 40px;
+  color: white;
+}
+.footer_links_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 75px 0 30px;
+  padding: 80px 0 0 0;
+}
+.footer_links_container ul li {
+  list-style: none;
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 16px;
+}
+.footer_links_container ul li a {
+  color: #3a3a3a;
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  text-decoration: none;
+}
+.footer_middle_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 30px;
+  color: #3a3a3a;
+}
+.footer_middle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  opacity: 80%;
+}
+.footer_middle div {
+  margin: 16px 0;
+}
+.footer_middle_title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin: 15px 0;
+}
+.footer_middle_whatsapp {
+  display: inline-block;
+  cursor: pointer;
+}
+.footer_middle_whatsapp img {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+}
+.footer_middle_txt {
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.footer_middle_email_container {
+  position: relative;
+  overflow: hidden;
+}
+.footer_middle_email {
+  cursor: pointer;
+  padding: 18px 25px;
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 20px;
+  /* opacity: 10%; */
+  border: 1px solid lightgray;
+  background-color: transparent;
+  color: black;
+}
+.footer_middle_email::placeholder {
+  color: #3a3a3a;
+  font-weight: 400;
+  opacity: 50%;
+  font-size: 14px;
+  line-height: 10px;
+}
+.footer_middle_email_icon {
+  position: absolute;
+  right: 30px;
+  top: 9px;
+  cursor: pointer;
+}
+.footer_middle2 {
+  width: 30%;
+}
+.footer_customer {
+  margin-right: -10px;
+}
+.footer_customer_details_container {
+  display: flex;
+}
+.footer_customer_details {
+  display: flex;
+  align-items: center;
+}
+.footer_socialmedia {
+  padding: 20px 0;
+}
+.footer_socialmedia_title {
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+.footer_socialmedia img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.footer_locations {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  opacity: 80%;
+}
+.footer_locations_header {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin-bottom: 10px;
+}
+.footer_locations span {
+  margin-right: 8px;
+}
+.footer_decription {
+  display: flex;
+  color: #3a3a3a;
+  justify-content: space-between;
+  margin: 30px 0 50px 0;
+}
+.footer_decription ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+  margin-left: 12px;
+}
+.footer_decription ul li {
+  margin-right: 10px;
+}
+.footer_decription ul li a {
+  text-decoration: none;
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px;
+  line-height: 16.94px;
+  color: #3a3a3a;
+}
+.footer_decription_right {
+  opacity: 80%;
+  width: 100%;
+  margin-left: 80px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer_bottom_border {
+  width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  opacity: 10%;
+}
+.footer_bottom {
+  display: flex;
+  flex-direction: row;
+  color: #3a3a3a;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.footer_bottom_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.footer_bottom_left img {
+  margin-right: 30px;
+}
+.footer_bottom_left_text {
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+.footer_bottom_left_text1 {
+  margin-bottom: 10px;
+}
+.footer_bottom_right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.footer_bottom_right div {
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  cursor: pointer;
+  margin-left: 12px;
+}
